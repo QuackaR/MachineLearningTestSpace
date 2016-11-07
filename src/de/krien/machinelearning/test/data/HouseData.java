@@ -9,25 +9,25 @@ public class HouseData {
 
     public final static List<House1A> ONE_FEATURE_HOUSE_DATA2 = new ArrayList<House1A>() {
         {
-            add(new House1A(100f, 100000f));
-            add(new House1A(200f, 200000f));
-            add(new House1A(300f, 300000f));
-            add(new House1A(400f, 400000f));
-            add(new House1A(500f, 500000f));
-            add(new House1A(600f, 600000f));
-            add(new House1A(700f, 700000f));
-            add(new House1A(800f, 800000f));
-            add(new House1A(900f, 900000f));
-            add(new House1A(1000f, 1000000f));
-            add(new House1A(1100f, 1100000f));
-            add(new House1A(1200f, 1200000f));
-            add(new House1A(1300f, 1300000f));
-            add(new House1A(1400f, 1400000f));
-            add(new House1A(1500f, 1500000f));
-            add(new House1A(1600f, 1600000f));
-            add(new House1A(1700f, 1700000f));
-            add(new House1A(1800f, 1800000f));
-            add(new House1A(1900f, 1900000f));
+            add(new House1A(100f, 100100f));
+            add(new House1A(200f, 200100f));
+            add(new House1A(300f, 300100f));
+            add(new House1A(400f, 400100f));
+            add(new House1A(500f, 500100f));
+            add(new House1A(600f, 600100f));
+            add(new House1A(700f, 700100f));
+            add(new House1A(800f, 800100f));
+            add(new House1A(900f, 900100f));
+            add(new House1A(1000f, 1000100f));
+            add(new House1A(1100f, 1100100f));
+            add(new House1A(1200f, 1200100f));
+            add(new House1A(1300f, 1300100f));
+            add(new House1A(1400f, 1400100f));
+            add(new House1A(1500f, 1500100f));
+            add(new House1A(1600f, 1600100f));
+            add(new House1A(1700f, 1700100f));
+            add(new House1A(1800f, 1800100f));
+            add(new House1A(1900f, 1900100f));
         }};
 
     public final static List<House1A> ONE_FEATURE_HOUSE_DATA = new ArrayList<House1A>() {{

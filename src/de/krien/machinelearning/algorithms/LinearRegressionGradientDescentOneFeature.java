@@ -6,7 +6,7 @@ import de.krien.machinelearning.test.object.House1A;
 import java.util.List;
 import java.util.Random;
 
-public class GradientDescentForOneFeature {
+public class LinearRegressionGradientDescentOneFeature {
 
     private final static int MAX_ITERATIONS = 49999;
     private final float LEARNING_RATE = 0.00000001f;        // alpha
@@ -18,8 +18,8 @@ public class GradientDescentForOneFeature {
     private float slopeOld;
 
     public static void main(String[] args) {
-        GradientDescentForOneFeature gD = new GradientDescentForOneFeature();
-        gD.calculate(HouseData.ONE_FEATURE_HOUSE_DATA);
+        LinearRegressionGradientDescentOneFeature gD = new LinearRegressionGradientDescentOneFeature();
+        gD.calculate(HouseData.ONE_FEATURE_HOUSE_DATA2);
         System.out.println("Intercept: " +  gD.getIntercept());
         System.out.println("Slope: " +  gD.getSlope());
     }
